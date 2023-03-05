@@ -1,0 +1,58 @@
+*{
+    font-family: Helvetica;
+}
+
+/* NAVBAR */
+#navbar{
+    border-bottom: 1px solid #CCC;
+    padding: .5rem;
+    margin-bottom: 1rem;
+}
+#navbar ul{
+    display: flex;
+    gap: 1rem;
+    list-style: none;
+}
+
+h1{
+    text-align: center;
+}
+.form, .books-container{
+    width: 450px;
+    margin: 0 auto;
+}
+.form-control{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: .5rem;
+}
+.form-control label{
+    font-weight: bold;
+    margin-bottom: .3rem;
+}
+.form-control input{
+    padding: .4rem;
+}
+
+/* Página BOOKS */
+.books-container div{
+    border-bottom: 1px solid #CCC;
+    padding: .4rem;
+    margin: .4rem;
+}
+.bold{
+    font-weight: bold;
+}
+
+/* BOOK */
+#book-page{
+    padding: 2rem;
+}
+#book-page .container{
+    text-align: center;
+}
+.actions{
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
